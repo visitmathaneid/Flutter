@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import './Questions.dart';
+import './Questions_Styled.dart';
 
 void main() => runApp(MyRootWidget());
 
@@ -37,6 +38,19 @@ class _MyRootWidgetState extends State<MyRootWidget> {
         body: Column(
           children: <Widget>[
             Questions(_questions[_questionsIndex]),
+            RaisedButton(
+              child: Text("Answer 1"),
+              onPressed: _answerChosed,
+            ),
+            RaisedButton(
+              child: Text("Answer 2"),
+              onPressed: _answerChosed,
+            ),
+            RaisedButton(
+              child: Text("Answer 3"),
+              onPressed: _answerChosed,
+            ),
+            Questions_Styled(_questions[_questionsIndex]),
             RaisedButton(
               child: Text("Answer 1"),
               onPressed: _answerChosed,

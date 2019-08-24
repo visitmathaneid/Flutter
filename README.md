@@ -36,3 +36,34 @@ Introduced by google on May 2017 Google I/O.
 **How it is transformed to a Native App**    
   
   ![Image of Flutter Architure](https://github.com/visitmathaneid/Flutter/blob/master/architecture.jpg)
+  
+  * Our code will be having flutter widget and our own widget which will be compiled in a way to generate more optimized native code. Then the native platform like iOS/Android will uses that code to show the app.So Flutter apps generally faster . performance is the best advantage of flutter apps.
+  
+**Flutter doesn't uses platform primitives**
+
+ * UI code of flutter will not be converted to native widget code which means here RaisedButton will not be converted to UIButton for iOS and Button View for Android.
+ * Flutter has own engine that controls and handles every pixel of the screen. so that gives greater control over how you want to build your UI.
+ 
+**Installing or Upgrade**
+
+ * To install flutter in your machine follow the step by step instruction [here.](https://flutter.dev/docs/get-started/install)
+ * **flutter upgrade -** command to update the sdk and every packages in the stable channel. 
+ * To change the channel to **beta/dev/master** we can use the following command.
+   **flutter channel -** to show current channel.
+   **flutter channel <channel_name>** (beta/dev/master)
+ * To upgrade only the packages not the sdk we can use the following command(while updating any new depencies in pubspec.yaml)
+   **flutter pub get -** to get all the dependencies without update.
+   **flutter pub upgrade -** to get all the dependencies with update.
+   
+**Flutter Alternatives**
+
+**Flutter** | **React Native** | **Ionic**
+------------ | ------------- | -------------
+Dart+Flutter | JS/React JS | JS(any or no Framework)
+Compiled to native apps | Partially compiled(native UI components) to native apps | Webview hosted web apps
+Doesn't compile to iOS/Android UI components | Does compile to iOS/Android UI components | Doesn't compile to iOS/Android UI components
+Best performance | Better performance | Relatively lesser performance 
+
+
+
+ 

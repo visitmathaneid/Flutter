@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import './model/transaction.dart';
 import './list_item.dart';
+import './list_item_listtile.dart';
 
 class TransactionList extends StatelessWidget {
   final List<Transaction> _transactionList;
@@ -16,7 +17,10 @@ class TransactionList extends StatelessWidget {
           ? NoItemsWidget()
           : ListView.builder(
               itemBuilder: ((ctx, index) {
-                return ListItem(_transactionList[index]);
+               //Normal Design
+                // return ListItem(_transactionList[index]);
+                // List Tile Design
+                return ListItemListTile(_transactionList[index]);
               }),
               itemCount: _transactionList.length,
             ),

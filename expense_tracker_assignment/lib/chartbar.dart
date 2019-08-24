@@ -14,10 +14,14 @@ class ChartBar extends StatelessWidget {
       fit: FlexFit.tight,
       child: Column(
         children: <Widget>[
-          FittedBox(
-            child: Text(
-              '\$${amount.toStringAsFixed(0)}',
-              style: Theme.of(context).textTheme.title,
+          Container(
+            //setting height for text widget to get even height of bar.
+            height: 25,
+            child: FittedBox(
+              child: Text(
+                '\$${amount.toStringAsFixed(0)}',
+                style: Theme.of(context).textTheme.title,
+              ),
             ),
           ),
           SizedBox(height: 4),

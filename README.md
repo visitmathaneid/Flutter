@@ -65,5 +65,18 @@ Doesn't compile to iOS/Android UI components | Does compile to iOS/Android UI co
 Best performance | Better performance | Relatively lesser performance 
 
 
+**Material Design**
+ 
+ * Material Design system is created by google. Flutter is embraced material design by default.It is not like everyone has to follow google design. but it is highly customizable and works better on iOS devices also. it is built into flutter but you also find apple styled widgets also.
+ 
+ **Creating New Project**
+ 
+  * In Terminal navigate to the folder you want to create the project then use the following command to create project.
+  **flutter create <proj_name>** (Special characters except underscore,space,caps are all not allowed).
+  
+ **Run a Project** 
+ 
+  * To run a project -> **flutter run**
+
 
  

@@ -78,6 +78,7 @@ Best performance | Better performance | Relatively lesser performance
  
   * To run a project -> **flutter run**
 
+ # Other samples 
 
  * **[Build your first app and generated Files Explanation](https://github.com/visitmathaneid/Flutter/tree/master/flutter_basics_first)**
  * **[Hello world and main.dart Explanation, Widgets - Material.dart, MaterialApp, AppBar, Scaffold, Text](https://github.com/visitmathaneid/Flutter/tree/master/flutter_basics_second)**

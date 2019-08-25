@@ -129,6 +129,8 @@ Best performance | Better performance | Relatively lesser performance
   
   *[FittedBox](https://github.com/visitmathaneid/Flutter/blob/master/expense_tracker_assignment/lib/chartbar.dart) -* To Fit the child inside the box.
   
+  *[SingleChildScrollview](https://github.com/visitmathaneid/Flutter/blob/master/expense_tracker_assignment/lib/home.dart) -* To make the bundle of widgets scrollable.
+  
   **3) Row/Column Widgets Children Widgets**
   
   *[Flexible](https://github.com/visitmathaneid/Flutter/blob/master/flexible_expand_sample/lib/main.dart) -* Used for setting relative width/ height between multiple childs.

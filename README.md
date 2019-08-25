@@ -79,4 +79,8 @@ Best performance | Better performance | Relatively lesser performance
   * To run a project -> **flutter run**
 
 
- * **[Dart Basics and generated Files Explanation](https://github.com/visitmathaneid/Flutter/tree/master/flutter_basics_first)**
+ * **[Build your first app and generated Files Explanation](https://github.com/visitmathaneid/Flutter/tree/master/flutter_basics_first)**
+ * **[Hello world and main.dart Explanation, Widgets - Material.dart, MaterialApp, AppBar, Scaffold, Text](https://github.com/visitmathaneid/Flutter/tree/master/flutter_basics_second)**
+ * **[Widgets - Visible(I/O) widgets, InVisible(Layout/Control) widgets, Row, Column, RaisedButton](https://github.com/visitmathaneid/Flutter/tree/master/flutter_basics_third)**
+ * **[Stateful Widget Sample](https://github.com/visitmathaneid/Flutter/tree/master/flutter_basics_fourth)**
+ * **[Using Private Properties](https://github.com/visitmathaneid/Flutter/tree/master/flutter_basics_five)**

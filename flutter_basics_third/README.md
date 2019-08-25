@@ -1,16 +1,17 @@
-# flutter_basics_third
+# Visible(I/O) Widgets and InVisible(Layout/Control Widgets)
 
-A new Flutter project.
+* There are two different types of child widgets which we will be using to design our page widget.
 
-## Getting Started
+* **Visible(Input/Output) widgets -** Whatever widget user sees in the screen like Text(), Card(), RaisedButton() etc.
+* **InVisible(Layout/Control) widgets -** Whatever widget user not seeing in the screen but used for grouping/ controlling the other widgets. eg: Row(), Column(), ListView() etc.
+* **Container() -** is a special type of widgets which will fall into both the categories.
 
-This project is a starting point for a Flutter application.
+For the syntax and usage of below widgets refer [here.](https://github.com/visitmathaneid/Flutter/blob/master/flutter_basics_third/lib/main.dart)
 
-A few resources to get you started if this is your first Flutter project:
+* **Column() -** Invisible widget to align group of other widgets vertically. This has *children* named arguments which will take the list of widgets and *mainAxisAlignment, crossAxisAlignment* which we can use it to align the element center, start, end etc. By default columns will take full height of the screen.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+* **Row() -** Invisible widget to align group of other widgets horizontally. This has *children* named arguments which will take the list of widgets and *mainAxisAlignment, crossAxisAlignment* which we can use it to align the element center, start, end etc. By default row will take full width of the screen and many more named arguments.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+* **RaisedButton() -** Visible Widget which will take many named arguments *child, onPressed* etc. *child* takes another widget(mostly Text) while this widget get clicked onPressed function will be executed. *onPressed* It will take a function as value. by default it will be null means this widget will be disabled. we have to pass the function without paranthesis otherwise the function will get executed in the compile time itself.
+
+* **Anonymous Function -** we can also use anonymous function for onpressed argument of *RaisedButton*. If your function has to be called in only one place and also having very less number of code you can go for this function. Both RaisedButton 2, 3 takes anonymous function but 2 takes anonymous arrow function and 3 takes normal anonymous function in this project.

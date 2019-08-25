@@ -1,16 +1,6 @@
-# flutter_basics_five
+# Using Private Properties
 
-A new Flutter project.
+ * Every dart file in the application is mini library. it can work together. 
+ * Adding underscore( _ ) beofre the variable name or class name makes that class / method as private so that it cannot be accessed from outside. Refer [this](https://github.com/visitmathaneid/Flutter/blob/master/flutter_basics_five/lib/main.dart) for sample.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+    

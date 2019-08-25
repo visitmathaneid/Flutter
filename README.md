@@ -171,7 +171,12 @@ Best performance | Better performance | Relatively lesser performance
  * **[Creating Custom Widget & Enums, Multiple Constructors](https://github.com/visitmathaneid/Flutter/tree/master/create_custom_widget)**
  * **[RaisedButton, Passing Callback Functions](https://github.com/visitmathaneid/Flutter/tree/master/buttons_and_passing_callback_functions)**
  * **[List, Maps, final, const](https://github.com/visitmathaneid/Flutter/tree/master/mapping_widget)**
+ * **[Conditional Statements](https://github.com/visitmathaneid/Flutter/tree/master/conditional_statements)**
  * **[Getter, FlatButton](https://github.com/visitmathaneid/Flutter/tree/master/getter_and_resetting_widget)**
+ * **[Splitting Widgets Properly](https://github.com/visitmathaneid/Flutter/tree/master/calculating_total_score_quiz_app)**
+ * **[Flexible and Expanded](https://github.com/visitmathaneid/Flutter/tree/master/flexible_expand_sample)**
+ 
+ 
  
  
  

@@ -1,16 +1,18 @@
-# getter_and_resetting_widget
+# Getter and Flat Button
 
-A new Flutter project.
+* Getter is the special type its a mixture of property type and method.
 
-## Getting Started
+		String get resultPhase{
+		return 'your score '+ someRandomString;
+		}
+		
+* Value of get will be calculated at runtime.we can also have if else block and everything as like other methods.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+       String get getResult{
+	   if(value >= 40){
+	    return 'pass';
+	   }else{
+	     return 'fail';
+	   }
+	   }
+	   	   

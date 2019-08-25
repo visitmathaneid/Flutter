@@ -1,6 +1,6 @@
 # Stateful Widget
 
- * If we are updating value of a statelesswidget the widget will not keep track of it's state means it will not be refreshed or recreated.
+ * If we are updating value of a statelesswidget the widget will not keep track of it's state means it will not be refreshed or recreated.It   will get rebuild only once the data changes externally and passed to constructor whereas Stateful Widget will get rebuild even for internal data changes but the data should be changed inside the state class of setState() method.
 
  * State is data/information used by your application. Stateless widget can not have state.
 
@@ -15,4 +15,3 @@
 * **setState() -** This method used to tells the widget to recreate the UI with new values. It's accepts function as a argument so all the data changes which affects the UI should be happening inside this function. After the data changes the setState() forces the flutter to call the build() again to update the widget(However full recreation will not happen only required parts will be repainted). 
 
 * So converting the stateless widget to stateful widget involves moving all the code to the state class and then inside createState() method return the created state class and move the data changes to setState(). Refer [this](https://github.com/visitmathaneid/Flutter/blob/master/flutter_basics_fourth/lib/main.dart) for sample.    
- 

@@ -1,16 +1,9 @@
-# buttons_and_passing_callback_functions
+# Passing callback functions around.
 
-A new Flutter project.
+ * we can trigger a function even widget is in separate file by sending function name as param. In flutter function name is the pointer to the function.
+ 
+ * **Function -** Datatype class that handle (or) used to save the sending function from one widget.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+ * **Lifting the stateup -** Maintaining common informations in main widget and sharing that informations to all other widget is called lifting the state up.
+ 
+ * Refer this project code to learn how to pass the callback functions.

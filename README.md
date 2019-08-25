@@ -77,11 +77,102 @@ Best performance | Better performance | Relatively lesser performance
  **Run a Project** 
  
   * To run a project -> **flutter run**
+  
+ **Running on iOS Emulator**
 
- # Other samples 
+  * Open iOS folder in Xcode and choose app name. In General part sigining section give your apple id(you can create new in apple developer account). Then you can select device or simulator for running our application on iOS device. You can also launch simulator by *open -a simulator.app* command.Since each every pixel is handled by flutter app will look very similar to the one on Android.
+
+**Debugging Your Application**  
+
+ * **Debug console** will be used to track the runtime errors.
+ * You can run the application using **start debugging** option. It will open debug window and you can add breakpoint.
+ 
+
+ **Dart DevTools**
+ 
+  * Used for detecting UI (or) detecting performance you can use Dart Devtools. You can press ctrl+shift+P to open Dart Devtools in VS editor.For android studio you can do it by ctrl+shift+A and type open Dart DevTools and click to open.
+  * **Flutter Inspector -** It will show the UI widget tree for debugging.
+  * **Debug paint -** It will show widget borders in our app like in android.
+  * **Repaint Rainbow -** It will show what was repainted when an action is occuring in the application. If the changing widget maintained separately in a proper way it will repaint only those part instead of whole screen.
+  * **Performance Indicators -** We can detect memory, timeline, logging etc here.
+  * For more info refer [here.](https://flutter.dev/docs/development/tools/devtools/overview)
+ 
+  
+ # Widgets Categories:
+ 
+  * There are 7 categories of widgets available in Flutter. You can always look into [Flutter Widget catelog](https://flutter.dev/docs/development/ui/widgets) to refer what are all the widgets available. Some of the most important widgets and widgets i used here are listed below.
+  
+
+**Most Important Widgets and It's Widget Categories**
+
+  **1) App/Page setup Widgets** 
+  
+  *MaterialApp/CupertinoApp -* App widget that descripes overall application design.
+  
+  *Scaffold/CupertinoScaffold -* Frame or a page in the application.
+  
+  **2) Layout Widgets**
+  
+  *Container -* It takes only one child mainly used for aligning items with padding, margin etc.
+  
+  *Row -* Aligning multiple childs at Horizontal Order.
+  
+  *Column -* Aligning multiple childs at Verical Order.
+  
+  *Center -* It takes only one child Widget and align it in the center of the screen.
+  
+  **3) Row/Column Widgets Children Widgets**
+  
+  *Flexible -* Used for setting relative width/ height between multiple childs.
+  
+  *Expanded -* Used for setting relative width/ height between multiple childs.
+  
+  **4) Content Container Widgets**
+  
+  *Stack -* Always align widgets on top of other widgets(like Framelayout in Android).
+  
+  *Card -* This Widget used for dropshadow etc. mainly used in ListViews.
+  
+  **5) Repeat Element Widgets**
+  
+  *Listview -* List of Widgets
+  
+  *Gridview -* Grid of Widgets.
+  
+  *ListTile -* List of items with some default styling & positioning.
+  
+  **6) ContentType Widgets**
+  
+  *Text -* To display text in the screen.
+  
+  *Image -* To display images in the screen.
+  
+  *Icon -* To display Icon Button.
+  
+  **7) User Input Widgets**
+  
+   *TextField -* To get text from user.
+   
+   *RaisedButton -* To get user click input from user.
+   
+   *FlatButton -* Same as RaisedButton widget but without bg.
+   
+   *GestureDetector -* For handling swipe, tap gestures.
+   
+   *InkWell -* Similar to GestureDetector to implement own touch window.
+  
+ # Application samples 
 
  * **[Build your first app and generated Files Explanation](https://github.com/visitmathaneid/Flutter/tree/master/flutter_basics_first)**
  * **[Hello world and main.dart Explanation, Widgets - Material.dart, MaterialApp, AppBar, Scaffold, Text](https://github.com/visitmathaneid/Flutter/tree/master/flutter_basics_second)**
  * **[Widgets - Visible(I/O) widgets, InVisible(Layout/Control) widgets, Row, Column, RaisedButton](https://github.com/visitmathaneid/Flutter/tree/master/flutter_basics_third)**
  * **[Stateful Widget Sample](https://github.com/visitmathaneid/Flutter/tree/master/flutter_basics_fourth)**
  * **[Using Private Properties](https://github.com/visitmathaneid/Flutter/tree/master/flutter_basics_five)**
+ * **[Creating Custom Widget & Enums, Multiple Constructors](https://github.com/visitmathaneid/Flutter/tree/master/create_custom_widget)**
+ * **[RaisedButton, Passing Callback Functions](https://github.com/visitmathaneid/Flutter/tree/master/buttons_and_passing_callback_functions)**
+ * **[List, Maps, final, const](https://github.com/visitmathaneid/Flutter/tree/master/mapping_widget)**
+ * **[Getter, FlatButton](https://github.com/visitmathaneid/Flutter/tree/master/getter_and_resetting_widget)**
+ 
+ 
+ 
+ 

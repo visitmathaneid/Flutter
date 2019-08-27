@@ -103,63 +103,89 @@ Best performance | Better performance | Relatively lesser performance
   * There are 7 categories of widgets available in Flutter. You can always look into [Flutter Widget catelog](https://flutter.dev/docs/development/ui/widgets) to refer what are all the widgets available. Some of the most important widgets and widgets i used here are listed below.
   
 
-**Most Important Widgets and It's Widget Categories**
+**Widgets and It's Widget Categories**
 
   **1) App/Page setup Widgets** 
   
-  *MaterialApp/CupertinoApp -* App widget that descripes overall application design.
+  *[MaterialApp/CupertinoApp](https://github.com/visitmathaneid/Flutter/blob/master/expense_tracker_assignment/lib/main.dart) -* App widget that descripes overall application design.
   
-  *Scaffold/CupertinoScaffold -* Frame or a page in the application.
+  *[Scaffold/CupertinoScaffold](https://github.com/visitmathaneid/Flutter/blob/master/expense_tracker_assignment/lib/main.dart) -* Frame or a page in the application.
   
   **2) Layout Widgets**
   
-  *Container -* It takes only one child mainly used for aligning items with padding, margin etc.
+  *[Container](https://github.com/visitmathaneid/Flutter/blob/master/expense_tracker_assignment/lib/create_transaction.dart) -* It takes only one child mainly used for aligning items with padding, margin etc.
   
-  *Row -* Aligning multiple childs at Horizontal Order.
+  *[Row](https://github.com/visitmathaneid/Flutter/blob/master/expense_tracker_assignment/lib/chart.dart) -* Aligning multiple childs at Horizontal Order.
   
-  *Column -* Aligning multiple childs at Verical Order.
+  *[Column](https://github.com/visitmathaneid/Flutter/blob/master/expense_tracker_assignment/lib/chartbar.dart) -* Aligning multiple childs at Verical Order.
   
   *Center -* It takes only one child Widget and align it in the center of the screen.
   
+  *[Padding](https://github.com/visitmathaneid/Flutter/blob/master/expense_tracker_assignment/lib/list_item_listtile.dart) -* Container + just padding argument. Just an alternative way and better for code reading. 
+  
+  *[SizedBox](https://github.com/visitmathaneid/Flutter/blob/master/expense_tracker_assignment/lib/chartbar.dart) -* It may or may not have child mostly used for spacing. It can take 0 or 1 child. 
+  
+  *[FractionallySizedBox](https://github.com/visitmathaneid/Flutter/blob/master/expense_tracker_assignment/lib/chartbar.dart) -* To use fractional part of parent widget size for child element.
+  
+  *[FittedBox](https://github.com/visitmathaneid/Flutter/blob/master/expense_tracker_assignment/lib/chartbar.dart) -* To Fit the child inside the box.
+  
   **3) Row/Column Widgets Children Widgets**
   
-  *Flexible -* Used for setting relative width/ height between multiple childs.
+  *[Flexible](https://github.com/visitmathaneid/Flutter/blob/master/flexible_expand_sample/lib/main.dart) -* Used for setting relative width/ height between multiple childs.
   
-  *Expanded -* Used for setting relative width/ height between multiple childs.
+  *[Expanded](https://github.com/visitmathaneid/Flutter/blob/master/flexible_expand_sample/lib/main.dart) -* Used for setting relative width/ height between multiple childs.
   
   **4) Content Container Widgets**
   
-  *Stack -* Always align widgets on top of other widgets(like Framelayout in Android).
+  *[Stack](https://github.com/visitmathaneid/Flutter/blob/master/expense_tracker_assignment/lib/chartbar.dart) -* Always align widgets on top of other widgets(like Framelayout in Android).
   
-  *Card -* This Widget used for dropshadow etc. mainly used in ListViews.
+  *[Card](https://github.com/visitmathaneid/Flutter/blob/master/expense_tracker_assignment/lib/list_item_listtile.dart) -* This Widget used for dropshadow etc. mainly used in ListViews.
   
   **5) Repeat Element Widgets**
   
-  *Listview -* List of Widgets
+  *Listview [] [.builder](https://github.com/visitmathaneid/Flutter/blob/master/expense_tracker_assignment/lib/transaction_list.dart) -* List of Widgets
   
   *Gridview -* Grid of Widgets.
   
-  *ListTile -* List of items with some default styling & positioning.
-  
   **6) ContentType Widgets**
   
-  *Text -* To display text in the screen.
+  *[Text](https://github.com/visitmathaneid/Flutter/blob/master/expense_tracker_assignment/lib/list_item_listtile.dart) -* To display text in the screen.
   
-  *Image -* To display images in the screen.
+  *[Image](https://github.com/visitmathaneid/Flutter/blob/master/expense_tracker_assignment/lib/transaction_list.dart) -* To display images in the screen.
   
-  *Icon -* To display Icon Button.
+  *Icon -* To display Icon.
+  
+  *[ListTile](https://github.com/visitmathaneid/Flutter/blob/master/expense_tracker_assignment/lib/list_item_listtile.dart) -* To display the predefined list item.
   
   **7) User Input Widgets**
   
-   *TextField -* To get text from user.
+   *[TextField](https://github.com/visitmathaneid/Flutter/blob/master/expense_tracker_assignment/lib/create_transaction.dart) -* To get text from user.
    
    *RaisedButton -* To get user click input from user.
    
-   *FlatButton -* Same as RaisedButton widget but without bg.
+   *[FlatButton](https://github.com/visitmathaneid/Flutter/blob/master/expense_tracker_assignment/lib/create_transaction.dart) -* Same as RaisedButton widget but without bg.
    
-   *GestureDetector -* For handling swipe, tap gestures.
+   *[IconButton - AppBar Icon](https://github.com/visitmathaneid/Flutter/blob/master/expense_tracker_assignment/lib/home.dart) -* Icon used in the app bar mostly.
+   
+   *[FloatingActionButton](https://github.com/visitmathaneid/Flutter/blob/master/expense_tracker_assignment/lib/home.dart) -* Floating button.
+   
+   *[GestureDetector](https://github.com/visitmathaneid/Flutter/blob/master/expense_tracker_assignment/lib/home.dart) -* For handling swipe, tap gestures.
    
    *InkWell -* Similar to GestureDetector to implement own touch window.
+   
+ # Common Concepts:
+
+  * [Using Getters - look _recentTransaction, ](https://github.com/visitmathaneid/Flutter/blob/master/expense_tracker_assignment/lib/home.dart)
+  * [Using Themes](https://github.com/visitmathaneid/Flutter/blob/master/expense_tracker_assignment/lib/main.dart)
+  * [Using Loops - look _getGroupedValues](https://github.com/visitmathaneid/Flutter/blob/master/expense_tracker_assignment/lib/chart.dart)
+  * [Using List.fold - look _getTotalSum](https://github.com/visitmathaneid/Flutter/blob/master/expense_tracker_assignment/lib/chart.dart)  
+  * [margin/padding - EdgeInsets.symmetric,all](https://github.com/visitmathaneid/Flutter/blob/master/expense_tracker_assignment/lib/list_item.dart)
+  * [const](https://github.com/visitmathaneid/Flutter/blob/master/mapping_widget/lib/main.dart)
+  * [final](https://github.com/visitmathaneid/Flutter/blob/master/mapping_widget/lib/Answer.dart)
+  * [Date Formatting](https://github.com/visitmathaneid/Flutter/blob/master/expense_tracker_assignment/lib/list_item.dart)
+  * [Shortcut constructors,Multiple Constructors](https://github.com/visitmathaneid/Flutter/blob/master/creating_custom_widget/README.md)
+  * [BottomSheet](https://github.com/visitmathaneid/Flutter/blob/master/expense_tracker_assignment/lib/home.dart)
+  * [FloatingActionButton](https://github.com/visitmathaneid/Flutter/blob/master/expense_tracker_assignment/lib/home.dart)
   
  # Application samples 
 
@@ -168,13 +194,14 @@ Best performance | Better performance | Relatively lesser performance
  * **[Widgets - Visible(I/O) widgets, InVisible(Layout/Control) widgets, Row, Column, RaisedButton](https://github.com/visitmathaneid/Flutter/tree/master/flutter_basics_third)**
  * **[Stateful Widget Sample](https://github.com/visitmathaneid/Flutter/tree/master/flutter_basics_fourth)**
  * **[Using Private Properties](https://github.com/visitmathaneid/Flutter/tree/master/flutter_basics_five)**
- * **[Creating Custom Widget & Enums, Multiple Constructors](https://github.com/visitmathaneid/Flutter/tree/master/create_custom_widget)**
+ * **[Creating Custom Widget & Enums, Multiple Constructors](https://github.com/visitmathaneid/Flutter/tree/master/creating_custom_widget)**
  * **[RaisedButton, Passing Callback Functions](https://github.com/visitmathaneid/Flutter/tree/master/buttons_and_passing_callback_functions)**
  * **[List, Maps, final, const](https://github.com/visitmathaneid/Flutter/tree/master/mapping_widget)**
  * **[Conditional Statements](https://github.com/visitmathaneid/Flutter/tree/master/conditional_statements)**
  * **[Getter, FlatButton](https://github.com/visitmathaneid/Flutter/tree/master/getter_and_resetting_widget)**
  * **[Splitting Widgets Properly](https://github.com/visitmathaneid/Flutter/tree/master/calculating_total_score_quiz_app)**
  * **[Flexible and Expanded](https://github.com/visitmathaneid/Flutter/tree/master/flexible_expand_sample)**
+ * **[Personal Expense Tracker](https://github.com/visitmathaneid/Flutter/tree/master/expense_tracker_assignment)**
  
  
  

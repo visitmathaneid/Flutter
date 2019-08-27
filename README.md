@@ -119,7 +119,17 @@ Best performance | Better performance | Relatively lesser performance
   
   *[Column](https://github.com/visitmathaneid/Flutter/blob/master/expense_tracker_assignment/lib/chartbar.dart) -* Aligning multiple childs at Verical Order.
   
-  *Center -* It takes only one child Widget and align it in the center of the screen.
+  *[Center](https://github.com/visitmathaneid/Flutter/blob/master/calculating_total_score_quiz_app/lib/Result.dart) -* It takes only one child Widget and align it in the center of the screen.
+  
+  *[Padding](https://github.com/visitmathaneid/Flutter/blob/master/expense_tracker_assignment/lib/list_item_listtile.dart) -* Container + just padding argument. Just an alternative way and better for code reading. 
+  
+  *[SizedBox](https://github.com/visitmathaneid/Flutter/blob/master/expense_tracker_assignment/lib/chartbar.dart) -* It may or may not have child mostly used for spacing. It can take 0 or 1 child. 
+  
+  *[FractionallySizedBox](https://github.com/visitmathaneid/Flutter/blob/master/expense_tracker_assignment/lib/chartbar.dart) -* To use fractional part of parent widget size for child element.
+  
+  *[FittedBox](https://github.com/visitmathaneid/Flutter/blob/master/expense_tracker_assignment/lib/chartbar.dart) -* To Fit the child inside the box.
+  
+  *[SingleChildScrollview](https://github.com/visitmathaneid/Flutter/blob/master/expense_tracker_assignment/lib/home.dart) -* To make the bundle of widgets scrollable.
   
   *[Padding](https://github.com/visitmathaneid/Flutter/blob/master/expense_tracker_assignment/lib/list_item_listtile.dart) -* Container + just padding argument. Just an alternative way and better for code reading. 
   
@@ -143,7 +153,11 @@ Best performance | Better performance | Relatively lesser performance
   
   **5) Repeat Element Widgets**
   
+<<<<<<< HEAD
   *Listview [] [.builder](https://github.com/visitmathaneid/Flutter/blob/master/expense_tracker_assignment/lib/transaction_list.dart) -* List of Widgets
+=======
+  *[Listview](https://github.com/visitmathaneid/Flutter/blob/master/expense_tracker_assignment/lib/transaction_list.dart) -* List of Widgets
+>>>>>>> b35c369bfb1d4a16f1e42cb9de7a52182ad8d6d1
   
   *Gridview -* Grid of Widgets.
   
@@ -153,18 +167,30 @@ Best performance | Better performance | Relatively lesser performance
   
   *[Image](https://github.com/visitmathaneid/Flutter/blob/master/expense_tracker_assignment/lib/transaction_list.dart) -* To display images in the screen.
   
+<<<<<<< HEAD
   *Icon -* To display Icon.
+=======
+  *[Icon](https://github.com/visitmathaneid/Flutter/blob/master/expense_tracker_assignment/lib/home.dart) -* To display Icon.
+>>>>>>> b35c369bfb1d4a16f1e42cb9de7a52182ad8d6d1
   
   *[ListTile](https://github.com/visitmathaneid/Flutter/blob/master/expense_tracker_assignment/lib/list_item_listtile.dart) -* To display the predefined list item.
   
   **7) User Input Widgets**
   
    *[TextField](https://github.com/visitmathaneid/Flutter/blob/master/expense_tracker_assignment/lib/create_transaction.dart) -* To get text from user.
+<<<<<<< HEAD
+=======
    
-   *RaisedButton -* To get user click input from user.
+   *[RaisedButton](https://github.com/visitmathaneid/Flutter/blob/master/buttons_and_passing_callback_functions/lib/Answer_Styled.dart) -* To get user click input from user.
+>>>>>>> b35c369bfb1d4a16f1e42cb9de7a52182ad8d6d1
    
    *[FlatButton](https://github.com/visitmathaneid/Flutter/blob/master/expense_tracker_assignment/lib/create_transaction.dart) -* Same as RaisedButton widget but without bg.
    
+<<<<<<< HEAD
+   *[FlatButton](https://github.com/visitmathaneid/Flutter/blob/master/expense_tracker_assignment/lib/create_transaction.dart) -* Same as RaisedButton widget but without bg.
+   
+=======
+>>>>>>> b35c369bfb1d4a16f1e42cb9de7a52182ad8d6d1
    *[IconButton - AppBar Icon](https://github.com/visitmathaneid/Flutter/blob/master/expense_tracker_assignment/lib/home.dart) -* Icon used in the app bar mostly.
    
    *[FloatingActionButton](https://github.com/visitmathaneid/Flutter/blob/master/expense_tracker_assignment/lib/home.dart) -* Floating button.
@@ -202,9 +228,3 @@ Best performance | Better performance | Relatively lesser performance
  * **[Splitting Widgets Properly](https://github.com/visitmathaneid/Flutter/tree/master/calculating_total_score_quiz_app)**
  * **[Flexible and Expanded](https://github.com/visitmathaneid/Flutter/tree/master/flexible_expand_sample)**
  * **[Personal Expense Tracker](https://github.com/visitmathaneid/Flutter/tree/master/expense_tracker_assignment)**
- 
- 
- 
- 
- 
- 

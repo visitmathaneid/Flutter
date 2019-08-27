@@ -153,11 +153,7 @@ Best performance | Better performance | Relatively lesser performance
   
   **5) Repeat Element Widgets**
   
-<<<<<<< HEAD
-  *Listview [] [.builder](https://github.com/visitmathaneid/Flutter/blob/master/expense_tracker_assignment/lib/transaction_list.dart) -* List of Widgets
-=======
   *[Listview](https://github.com/visitmathaneid/Flutter/blob/master/expense_tracker_assignment/lib/transaction_list.dart) -* List of Widgets
->>>>>>> b35c369bfb1d4a16f1e42cb9de7a52182ad8d6d1
   
   *Gridview -* Grid of Widgets.
   
@@ -167,30 +163,18 @@ Best performance | Better performance | Relatively lesser performance
   
   *[Image](https://github.com/visitmathaneid/Flutter/blob/master/expense_tracker_assignment/lib/transaction_list.dart) -* To display images in the screen.
   
-<<<<<<< HEAD
-  *Icon -* To display Icon.
-=======
   *[Icon](https://github.com/visitmathaneid/Flutter/blob/master/expense_tracker_assignment/lib/home.dart) -* To display Icon.
->>>>>>> b35c369bfb1d4a16f1e42cb9de7a52182ad8d6d1
   
   *[ListTile](https://github.com/visitmathaneid/Flutter/blob/master/expense_tracker_assignment/lib/list_item_listtile.dart) -* To display the predefined list item.
   
   **7) User Input Widgets**
   
    *[TextField](https://github.com/visitmathaneid/Flutter/blob/master/expense_tracker_assignment/lib/create_transaction.dart) -* To get text from user.
-<<<<<<< HEAD
-=======
    
    *[RaisedButton](https://github.com/visitmathaneid/Flutter/blob/master/buttons_and_passing_callback_functions/lib/Answer_Styled.dart) -* To get user click input from user.
->>>>>>> b35c369bfb1d4a16f1e42cb9de7a52182ad8d6d1
    
    *[FlatButton](https://github.com/visitmathaneid/Flutter/blob/master/expense_tracker_assignment/lib/create_transaction.dart) -* Same as RaisedButton widget but without bg.
    
-<<<<<<< HEAD
-   *[FlatButton](https://github.com/visitmathaneid/Flutter/blob/master/expense_tracker_assignment/lib/create_transaction.dart) -* Same as RaisedButton widget but without bg.
-   
-=======
->>>>>>> b35c369bfb1d4a16f1e42cb9de7a52182ad8d6d1
    *[IconButton - AppBar Icon](https://github.com/visitmathaneid/Flutter/blob/master/expense_tracker_assignment/lib/home.dart) -* Icon used in the app bar mostly.
    
    *[FloatingActionButton](https://github.com/visitmathaneid/Flutter/blob/master/expense_tracker_assignment/lib/home.dart) -* Floating button.

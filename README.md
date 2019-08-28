@@ -167,6 +167,8 @@ Best performance | Better performance | Relatively lesser performance
   
   *[ListTile](https://github.com/visitmathaneid/Flutter/blob/master/expense_tracker_assignment/lib/list_item_listtile.dart) -* To display the predefined list item.
   
+  *[CircleAvatar](https://github.com/visitmathaneid/Flutter/blob/master/expense_tracker_assignment/lib/list_item_listtile.dart) -* To display the circle background.
+  
   **7) User Input Widgets**
   
    *[TextField](https://github.com/visitmathaneid/Flutter/blob/master/expense_tracker_assignment/lib/create_transaction.dart) -* To get text from user.

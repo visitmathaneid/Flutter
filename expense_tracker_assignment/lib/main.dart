@@ -15,7 +15,8 @@ class ExpenseTracker extends StatelessWidget {
           //application title kind of texts theme
           textTheme: ThemeData.light().textTheme.copyWith(title: TextStyle(fontFamily: 'OpenSans',fontSize: 18,fontWeight: FontWeight.bold)),
           //appbar title theme
-          appBarTheme: AppBarTheme(textTheme: ThemeData.light().textTheme.copyWith(title: TextStyle(fontFamily: 'OpenSans',fontSize: 20)))
+          appBarTheme: AppBarTheme(textTheme: ThemeData.light().textTheme.copyWith(title: TextStyle(fontFamily: 'OpenSans',fontSize: 20))),
+          buttonColor: Colors.purple
        ),
       home: Home(),
     );

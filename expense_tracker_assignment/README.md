@@ -68,6 +68,33 @@ Perfact for custom styling | Must use if widgets sit next to/ above each other.
  * The other way to do is you can set the textBarTheme and appBartheme like we did it in this project.
  
   * Refer [main.dart](https://github.com/visitmathaneid/Flutter/blob/master/expense_tracker_assignment/lib/main.dart) and [pubspec.yaml](https://github.com/visitmathaneid/Flutter/blob/master/expense_tracker_assignment/pubspec.yaml) for understanding  how to apply font. 
+  
+   **Date Picker**
+ 
+  * *showDatePicker() -* is the function for showing date picker.it takes 4 argument. *context -* which accepts BuildContext that we get this as argument in Build(). *initialDate -* date should show while opening the date picker. *FirstDate -* starting date range for date picker(cannot pick a date before firstDate). *lastDate -* ending date range for date picker(cannot pick a date after lastDate). Return type of this method is *Future<DataTime>*. 
+  
+  * *Future<DataTime>* Futute is the important concept in Dart which means the function will return a value not immediately but in future. API calling will be using this since after request made the response will not come immediately but after some time it will return. here after date is picked by user the date will be returned. it will be null incase of cancel.
+
+  * *then() -* To get the value of Future we will use the then method which will wait for the response and then it will be called. 
+
+  * Refer [create_transaction.dart](https://github.com/visitmathaneid/Flutter/blob/master/expense_tracker_assignment/lib/create_transaction.dart) for more information. 
+  
+  
+**Useful Resources & Links**
+
+ * Attached, you find the source code for this section (multiple code snapshots - also attached to individual lectures throughout this module).
+
+ * In addition, the following resources might be helpful:
+
+ * More on Layouting (with Column(), Row() etc.): https://flutter.dev/docs/development/ui/layout
+
+ * More on Images & Assets: https://flutter.dev/docs/development/ui/assets-and-images
+
+ * Official Widget Catalog: https://flutter.dev/docs/development/ui/widgets
+
+ * Material Design Docs: https://material.io/design/
+
+ * Flutter Theming: https://flutter.dev/docs/cookbook/design/themes
  
  
  

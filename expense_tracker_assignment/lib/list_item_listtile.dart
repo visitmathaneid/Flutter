@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import './model/transaction.dart';
 import 'package:intl/intl.dart';
-import 'package:intl/date_symbol_data_local.dart';
 
 class ListItemListTile extends StatelessWidget {
   final Transaction _transaction;
+  final Function _deleteTransaction;
 
-  ListItemListTile(@required this._transaction);
+  ListItemListTile(@required this._transaction, @required this._deleteTransaction);
 
   @override
   Widget build(BuildContext context) {
@@ -24,7 +24,8 @@ class ListItemListTile extends StatelessWidget {
                 '\$${_transaction.amount.toStringAsFixed(0)}',
                 style: Theme.of(context)
                     .textTheme
-                    .title.copyWith(color: Colors.white),
+                    .title
+                    .copyWith(color: Colors.white),
               ),
             ),
           ),
@@ -36,6 +37,12 @@ class ListItemListTile extends StatelessWidget {
             DateFormat('MMM dd, yyyy', 'en').format(_transaction.dateTime),
             style: TextStyle(color: Colors.grey, fontSize: 14),
           ),
+          trailing: IconButton(
+              icon: Icon(
+                Icons.delete,
+                color: Theme.of(context).errorColor,
+              ),
+              onPressed: () => _deleteTransaction(_transaction.id)),
         ),
       ),
     );

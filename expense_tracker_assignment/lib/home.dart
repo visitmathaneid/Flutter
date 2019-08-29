@@ -11,10 +11,7 @@ class Home extends StatefulWidget {
 }
 
 class _HomeState extends State<Home> {
-  final List<Transaction> _list = [
-    Transaction(id: "t1", title: "Food", amount: 100, dateTime: DateTime.now()),
-    Transaction(id: "t2", title: "Rent", amount: 500, dateTime: DateTime.now()),
-  ];
+  final List<Transaction> _list = [];
 
   List<Transaction> get _recentTransactions {
     return _list.where((tx) {
@@ -23,11 +20,18 @@ class _HomeState extends State<Home> {
     }).toList();
   }
 
-  void _createTransaction(String title, double amount) {
+  void _createTransaction(String title, double amount, DateTime selectedTime) {
     String tid = 't${_list.length + 1}';
     setState(() {
       _list.add(Transaction(
-          id: tid, title: title, amount: amount, dateTime: DateTime.now()));
+          id: tid, title: title, amount: amount, dateTime: selectedTime));
+    });
+  }
+
+  void _deleteTransaction(String id) {
+    String tid = 't${_list.length + 1}';
+    setState(() {
+      _list.retainWhere((tx) => id == tx.id);
     });
   }
 
@@ -69,7 +73,7 @@ class _HomeState extends State<Home> {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: <Widget>[
             Chart(_recentTransactions),
-            TransactionList(_list),
+            TransactionList(_list,_deleteTransaction),
           ],
         ),
       ),

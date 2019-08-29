@@ -5,8 +5,8 @@ import './list_item_listtile.dart';
 
 class TransactionList extends StatelessWidget {
   final List<Transaction> _transactionList;
-
-  TransactionList(@required this._transactionList);
+  final Function _deleteTransaction;
+  TransactionList(@required this._transactionList, @required this._deleteTransaction);
 
   @override
   Widget build(BuildContext context) {
@@ -20,7 +20,7 @@ class TransactionList extends StatelessWidget {
                //Normal Design
                 // return ListItem(_transactionList[index]);
                 // List Tile Design
-                return ListItemListTile(_transactionList[index]);
+                return ListItemListTile(_transactionList[index],_deleteTransaction);
               }),
               itemCount: _transactionList.length,
             ),
